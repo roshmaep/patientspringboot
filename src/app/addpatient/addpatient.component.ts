@@ -14,5 +14,5 @@ export class AddpatientComponent {
   dname=""
   readValues=()=>{
     let data:any={"pid":this.pid,"pname":this.pname,"address":this.address,"mobileno":this.mobileno,"doap":this.doap,"drname":this.dname}
-    console.log}
+    console.log(data)}
 }
